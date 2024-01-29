@@ -1,79 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moonnn</title>
+    <link
+      rel="stylesheet"
+      href="assets/icon/font/bootstrap-icons.min.css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  </head>
 
-<body>
-    <section class="w-full bg-[#080915] flex flex-wrap justify-center">
-        <section class="w-full 2xl:container flex flex-wrap justify-center">
-            <!-- ****** start header ****** -->
-            <header
-                class=" flex fixed w-full 2xl:container *:xl:mx-10 md:justify-between p-3 *:text-[#d8d9ef] bg-[#080915] ">
-                <figure class="lg:w-1/4 w-1/2  flex items-center">
-                    <img src="assets/img/logo.svg" alt="logo_site">
-                </figure>
-                <nav class="w-2/4 lg:flex hidden ">
-                    <ul class="flex justify-evenly items-center *:capitalize   w-full text-xl">
-                        <li><a href="">home</a></li>
-                        <li><a href="">features</a></li>
-                        <li><a href="">pricing</a></li>
-                        <li><a href="">pages</a></li>
-                    </ul>
-                </nav>
-                <div class="lg:w-1/4 w-1/2   justify-end *:capitalize  hidden lg:flex">
-                    <div class="p-3 border bg-[#0f1024] border-[#1c1d3d] rounded-md">
-                        <span>Log in</span>
-                    </div>
-                    <div class=" mx-3 px-3 flex items-center border-[#5a51df] border bg-[#332d8e] rounded-md">
-                        <span>sing up</span>
-                    </div>
-                </div>
-                <div class="lg:hidden w-1/2 flex justify-end ">
-                    <div class="*:w-full *:my-2 *:h-[2px] *:bg-[#d8d9ef] w-[32px]  ">
-                        <div class=""></div>
-                        <div class=""></div>
-                        <div class=""></div>
-                    </div>
-                </div>
-            </header>
-            <!-- ****** start header ****** -->
+  <body class="bg-[#080915]">
+    <main class="w-full 2xl:container mx-auto flex flex-wrap justify-center">
+      <section class="w-full 2xl:container flex flex-wrap justify-center">
+        <!-- ****** start header ****** -->
+        <header
+          class="flex fixed w-full 2xl:container justify-between py-3 lg:px-28 px-4 *:text-[#d8d9ef] top-0 left-0 bg-transparent mb5 backdrop-blur-[25px] z-50"
+        >
+          <figure class="lg:w-1/4 w-1/2 flex items-center">
+            <img src="assets/img/logo.svg" alt="logo_site" />
+          </figure>
+          <nav class="w-2/4 lg:flex hidden">
+            <ul
+              class="flex justify-evenly items-center *:capitalize w-full text-xl"
+            >
+              <li><a href="">home</a></li>
+              <li><a href="">features</a></li>
+              <li><a href="">pricing</a></li>
+              <li><a href="">pages</a></li>
+            </ul>
+          </nav>
+          <div class="lg:w-1/4 w-1/2 justify-end *:capitalize hidden lg:flex">
+            <div class="p-3 border bg-[#0f1024] border-[#1c1d3d] rounded-md">
+              <span>Log in</span>
+            </div>
+            <div
+              class="mx-3 px-3 flex items-center border-[#5a51df] border bg-[#332d8e] rounded-md"
+            >
+              <span>sing up</span>
+            </div>
+          </div>
+          <div class="lg:hidden w-1/2 flex justify-end">
+            <div class="*:w-full *:my-2 *:h-[2px] *:bg-[#d8d9ef] w-[32px]">
+              <div class=""></div>
+              <div class=""></div>
+              <div class=""></div>
+            </div>
+          </div>
+        </header>
+        <!-- ****** start header ****** -->
 
-            <!-- /// the section under the header because the header is fixed  ///-->
-            <section class="w-full bg-[#080915] py-10"></section>
+        <!-- /// the section under the header because the header is fixed  ///-->
 
+        <!-- ****** start sec 1 ****** -->
+        <div class="w-full mt-20 lg:px-28 px-5 flex flex-wrap *:">
+          <div class="lg:w-1/2 w-full flex flex-wrap">
+            <div
+              class="w-full flex flex-wrap lg:justify-start justify-center content-center mt-10"
+            >
+              <div class="w-full">
+                <h1
+                  class="text-[#7cacf8] font-bold text-3xl md:text-5xl lg:text-start text-center lg:w-[70%]"
+                >
+                  Elevate your financial future with
+                  <span class="text-[#5a51df]">Moonnn</span>
+                </h1>
+              </div>
+              <p
+                class="text-[#9d9ec7] lg:text-start py-5 text-lg lg:text-xl text-center w-full lg:w-[70%]"
+              >
+                Discover diverse investment options, robust savings accounts,
+                and unmatched financial expertise for stable wealth growth.
+              </p>
+            </div>
+          </div>
+          <div class="lg:w-1/2 w-full flex flex-wrap justify-center py-6">
+            <div class="w-[100%] relative flex justify-center items-center">
+              <figure
+                class="absolute w-[100%] md:w-[70%] flex justify-center items-center"
+              >
+                <img class="" src="assets/img/moon.png" alt="" />
+              </figure>
+              <figure class="flex justify-center relative">
+                <img
+                  class="w-[328px] h-full"
+                  src="assets/img/mobilepic.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <!-- ****** end sec 1 ****** -->
+      </section>
 
-            <!-- ****** start sec 1 ****** -->
-            <section class="w-full  mx-10 flex flex-wrap *:">
-                <section class="lg:w-1/2 w-full  flex flex-wrap ">
-                    <section class=" w-full flex flex-wrap lg:justify-start justify-center content-center  mt-10">
-                        <div class="w-full">
-                            <h1 class="text-[#7cacf8] font-bold text-3xl md:text-5xl  lg:text-start  text-center lg:w-[70%]">Elevate your financial future with <span class="text-[#5a51df]">Moonnn</span></h1>
-                        </div>
-                        <p class="text-[#9d9ec7] lg:text-start py-5 text-lg lg:text-xl text-center w-full lg:w-[70%]">Discover diverse investment options, robust savings accounts, and
-                            unmatched financial expertise for stable wealth growth.</p>
-                        <div class="w-full"></div>
-                    </section>
-                </section>
-                <section class="lg:w-1/2 w-full flex flex-wrap justify-center  py-6 ">
-                    <section class="w-[100%]  relative flex justify-center items-center">
-                        <figure class="absolute w-[100%] md:w-[70%]  flex justify-center items-center">
-                            <img class="" src="assets/img/moon.png" alt="">
-                        </figure class="absolute ">
-                        <figure class="flex justify-center relative">
-                            <img class="w-[328px] h-full" src="assets/img/mobilepic.png" alt="">
-                        </figure>
-                    </section>
-                </section>
-            </section>
-            <!-- ****** end sec 1 ****** -->
+      <!-- start of section 2 -->
 
-        </section>
-    </section>
-</body>
+      <section
+        id="firstsec"
+        class="w-full 2xl:container my-7 opacity-0 duration-300"
+      >
+        <div class="w-full">
+          <h2 class="text-center w-full text-[#d8d9ef] text-[39px] font-medium">
+            an assortment of investment <br />
+            opportunies await you
+          </h2>
+        </div>
+        <div class="w-full lg:px-28 mt-5 flex flex-wrap">
+          <div class="lg:w-1/3 w-1/2 p-5">
+            <div
+              class="w-full border-2 px-6 py-10 group border-[#1c1d3d] rounded-[16px]"
+            >
+              <span
+                class="text-[#d8d9ef] rounded-[50%] border-[#1c1d3d] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-person-lock text-[20px]"></i>
+              </span>
+              <h4
+                class="text-[#d8d9ef] mt-4 md:text-[23px] text-[20px] capitalize"
+              >
+                savings account
+              </h4>
+              <p
+                class="text-[#9697bf] capitalize md:text-[18px] text-[15px] mt-2 mb-5"
+              >
+                mauris vulputate pellentesque congue.morbi bibendum viverra
+                massa finibus lacinia
+              </p>
+              <span
+                class="text-[#d8d9ef] rounded-[5px] border-[#1c1d3d] group-hover:bg-[#332d8e] duration-300 bg-[#15162f] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-[20px]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-1/2 p-5">
+            <div
+              class="w-full border-2 px-6 py-10 group border-[#1c1d3d] rounded-[16px]"
+            >
+              <span
+                class="text-[#d8d9ef] rounded-[50%] border-[#1c1d3d] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-currency-bitcoin text-[20px]"></i>
+              </span>
+              <h4
+                class="text-[#d8d9ef] mt-4 md:text-[23px] text-[20px] capitalize"
+              >
+                savings account
+              </h4>
+              <p
+                class="text-[#9697bf] capitalize md:text-[18px] text-[15px] mt-2 mb-5"
+              >
+                mauris vulputate pellentesque congue.morbi bibendum viverra
+                massa finibus lacinia
+              </p>
+              <span
+                class="text-[#d8d9ef] rounded-[5px] border-[#1c1d3d] group-hover:bg-[#332d8e] duration-300 bg-[#15162f] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-[20px]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-1/2 p-5">
+            <div
+              class="w-full border-2 px-6 py-10 group border-[#1c1d3d] rounded-[16px]"
+            >
+              <span
+                class="text-[#d8d9ef] rounded-[50%] border-[#1c1d3d] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-globe-americas text-[20px]"></i>
+              </span>
+              <h4
+                class="text-[#d8d9ef] mt-4 md:text-[23px] text-[20px] capitalize"
+              >
+                savings account
+              </h4>
+              <p
+                class="text-[#9697bf] capitalize md:text-[18px] text-[15px] mt-2 mb-5"
+              >
+                mauris vulputate pellentesque congue.morbi bibendum viverra
+                massa finibus lacinia
+              </p>
+              <span
+                class="text-[#d8d9ef] rounded-[5px] border-[#1c1d3d] group-hover:bg-[#332d8e] duration-300 bg-[#15162f] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-[20px]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-1/2 p-5">
+            <div
+              class="w-full border-2 px-6 py-10 group border-[#1c1d3d] rounded-[16px]"
+            >
+              <span
+                class="text-[#d8d9ef] rounded-[50%] border-[#1c1d3d] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-bag text-[20px]"></i>
+              </span>
+              <h4
+                class="text-[#d8d9ef] mt-4 md:text-[23px] text-[20px] capitalize"
+              >
+                savings account
+              </h4>
+              <p
+                class="text-[#9697bf] capitalize md:text-[18px] text-[15px] mt-2 mb-5"
+              >
+                mauris vulputate pellentesque congue.morbi bibendum viverra
+                massa finibus lacinia
+              </p>
+              <span
+                class="text-[#d8d9ef] rounded-[5px] border-[#1c1d3d] group-hover:bg-[#332d8e] duration-300 bg-[#15162f] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-[20px]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-1/2 p-5">
+            <div
+              class="w-full border-2 px-6 py-10 group border-[#1c1d3d] rounded-[16px]"
+            >
+              <span
+                class="text-[#d8d9ef] rounded-[50%] border-[#1c1d3d] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-wallet2 text-[20px]"></i>
+              </span>
+              <h4
+                class="text-[#d8d9ef] mt-4 md:text-[23px] text-[20px] capitalize"
+              >
+                savings account
+              </h4>
+              <p
+                class="text-[#9697bf] capitalize md:text-[18px] text-[15px] mt-2 mb-5"
+              >
+                mauris vulputate pellentesque congue.morbi bibendum viverra
+                massa finibus lacinia
+              </p>
+              <span
+                class="text-[#d8d9ef] rounded-[5px] border-[#1c1d3d] group-hover:bg-[#332d8e] duration-300 bg-[#15162f] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-[20px]"></i>
+              </span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-1/2 p-5">
+            <div
+              class="w-full border-2 px-6 py-10 group border-[#1c1d3d] rounded-[16px]"
+            >
+              <span
+                class="text-[#d8d9ef] rounded-[50%] border-[#1c1d3d] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-window-dock text-[20px]"></i>
+              </span>
+              <h4
+                class="text-[#d8d9ef] mt-4 md:text-[23px] text-[20px] capitalize"
+              >
+                savings account
+              </h4>
+              <p
+                class="text-[#9697bf] capitalize md:text-[18px] text-[15px] mt-2 mb-5"
+              >
+                mauris vulputate pellentesque congue.morbi bibendum viverra
+                massa finibus lacinia
+              </p>
+              <span
+                class="text-[#d8d9ef] rounded-[5px] border-[#1c1d3d] group-hover:bg-[#332d8e] duration-300 bg-[#15162f] w-[40px] h-[40px] flex border justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-[20px]"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- end section 3  -->
+
+      <section class="w-full 2xl:container">
+        <div class="w-full flex justify-center items-center py-10">
+          <button
+            class="w-[120px] rounded-[4px] bg-[#332d8e] h-[40px] text-white capitalize hover:bg-[#2a2575] duration-300"
+          >
+            get started
+          </button>
+        </div>
+        <div class="w-full justify-center px-5 lg:px-28">
+          <div class="w-full flex flex-wrap">
+            <figure
+              class="w-full flex justify-center md:justify-start md:w-1/2"
+            >
+              <img
+                src="assets/img/comission.png"
+                class="w-[300px] object-contain"
+                alt=""
+              />
+            </figure>
+            <div class="w-full md:w-1/2 p-5">
+              <h3 class="text-[39px] capitalize text-[#d8d9ef]">
+                lower costs, higher profits
+              </h3>
+              <p class="text-[18px] caption-top text-[#9d9ec7] my-5">
+                Etiam mauris purus, pellentesque at sapien a, eleifend rhoncus
+                purus. Sed malesuada purus eget ante imperdiet, in feugiat risus
+                sagittis.
+              </p>
+              <button
+                class="text-[#d8d9ef] text-[18px] hover:text-[#6f68db] duration-300 capitalize"
+              >
+                learn more
+              </button>
+            </div>
+          </div>
+          <div class="w-full flex flex-wrap mt-16">
+            <div class="w-full md:w-1/2 p-5 order-last md:order-first">
+              <h3 class="text-[39px] capitalize text-[#d8d9ef]">
+                lower costs, higher profits
+              </h3>
+              <p class="text-[18px] caption-top text-[#9d9ec7] my-5">
+                Etiam mauris purus, pellentesque at sapien a, eleifend rhoncus
+                purus. Sed malesuada purus eget ante imperdiet, in feugiat risus
+                sagittis.
+              </p>
+              <button
+                class="text-[#d8d9ef] text-[18px] hover:text-[#6f68db] duration-300 capitalize"
+              >
+                learn more
+              </button>
+            </div>
+            <figure class="w-full flex justify-center md:justify-end md:w-1/2">
+              <img
+                src="assets/img/deposit.png"
+                class="w-[400px] object-contain"
+                alt=""
+              />
+            </figure>
+          </div>
+          <div class="w-full flex flex-wrap mt-16">
+            <figure
+              class="w-full flex justify-center md:justify-start md:w-1/2"
+            >
+              <img
+                src="assets/img/chart.png"
+                class="w-[300px] object-contain"
+                alt=""
+              />
+            </figure>
+            <div class="w-full md:w-1/2 p-5">
+              <h3 class="text-[39px] capitalize text-[#d8d9ef]">
+                lower costs, higher profits
+              </h3>
+              <p class="text-[18px] caption-top text-[#9d9ec7] my-5">
+                Etiam mauris purus, pellentesque at sapien a, eleifend rhoncus
+                purus. Sed malesuada purus eget ante imperdiet, in feugiat risus
+                sagittis.
+              </p>
+              <button
+                class="text-[#d8d9ef] text-[18px] hover:text-[#6f68db] duration-300 capitalize"
+              >
+                learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of section 4  -->
+
+      <section class="w-full 2xl:container my-20">
+        <div class="w-full px-5 lg:px-28 relative">
+          <div
+            id="slider"
+            class="flex items-end justify-center relative border-2 h-[400px] border-[#1c1d3d] rounded-[20px] z-20"
+          >
+            <div
+              class="w-full h-full content-center absolute justify-center duration-500 flex flex-wrap"
+            >
+              <p
+                class="text-[#cccde2] text-center text-[18px] font-medium w-[90%] md:w-[55%]"
+              >
+                "Moonnn's commitment to excellence is evident in their services.
+                Their attention to detail and customer-centric approach make
+                them my top choice for financial guidance."
+              </p>
+              <figure class="mt-7 w-full flex justify-center items-center">
+                <img
+                  src="assets/img/first.jpg"
+                  class="w-[100px] h-[100px] rounded-[50%] overflow-hidden"
+                  alt=""
+                />
+                <figcaption class="ms-4">
+                  <h6 class="text-[#cccde2]">
+                    jacob young <br />
+                    <span>Investor</span>
+                  </h6>
+                </figcaption>
+              </figure>
+            </div>
+            <div
+              class="w-full h-full content-center absolute justify-center flex flex-wrap duration-500 opacity-0"
+            >
+              <p
+                class="text-[#cccde2] text-center text-[18px] font-medium w-[90%] md:w-[55%]"
+              >
+                "Moonnn's savings account transformed how I save money. The high
+                interest rates and user-friendly interface make saving
+                effortless. I trust Moonnn with my financial growth."
+              </p>
+              <figure class="mt-7 w-full flex justify-center items-center">
+                <img
+                  src="assets/img/second.jpg"
+                  class="w-[100px] h-[100px] rounded-[50%] overflow-hidden"
+                  alt=""
+                />
+                <figcaption class="ms-4">
+                  <h6 class="text-[#cccde2]">
+                    Gina Park <br />
+                    <span>Investor</span>
+                  </h6>
+                </figcaption>
+              </figure>
+            </div>
+            <div
+              class="w-full h-full content-center absolute justify-center flex duration-500 flex-wrap opacity-0"
+            >
+              <p
+                class="text-[#cccde2] text-center text-[18px] font-medium w-[90%] md:w-[55%]"
+              >
+                "I've tried various financial platforms, but Moonnn stands out.
+                Their intuitive tools and wide range of investment options
+                provide me with a comprehensive investment experience."
+              </p>
+              <figure class="mt-7 w-full flex justify-center items-center">
+                <img
+                  src="assets/img/third.jpg"
+                  class="w-[100px] h-[100px] rounded-[50%] overflow-hidden"
+                  alt=""
+                />
+                <figcaption class="ms-4">
+                  <h6 class="text-[#cccde2]">
+                    Orlando Lee <br />
+                    <span>Investor</span>
+                  </h6>
+                </figcaption>
+              </figure>
+            </div>
+            <button
+              class="bg-[#565a78] relative z-20 mb-3 w-[12px] h-[12px] rounded-[50%] duration-300 cursor-pointer"
+            ></button>
+            <button
+              class="bg-[#2d2f41] w-[12px] relative z-20 h-[12px] mx-2 mb-3 rounded-[50%] duration-300 cursor-pointer"
+            ></button>
+            <button
+              class="bg-[#2d2f41] duration-300 mb-3 w-[12px] relative z-20 h-[12px] rounded-[50%] cursor-pointer"
+            ></button>
+          </div>
+          <div
+            class="w-[300px] h-[300px] duration-300 bg-gradient-to-bl from-[#5a51df] to-black rounded-[50%] blur-[120px] absolute top-0 left-0"
+          ></div>
+        </div>
+      </section>
+
+      <!-- end of section 5  -->
+
+      <section class="w-full 2xl:container">
+        <div class="w-full relative px-4 lg:px-28"></div>
+      </section>
+    </main>
+  </body>
+
+  <script>
+    let firstsec = document.getElementById("firstsec");
+
+    window.addEventListener("scroll", () => {
+      let x = window.scrollY;
+
+      if (x > firstsec.offsetTop - 400) {
+        firstsec.classList.remove("opacity-0");
+      } else {
+        firstsec.classList.add("opacity-0");
+      }
+    });
+
+    let _slider = document.querySelectorAll("#slider>div");
+    let btn = document.querySelectorAll("#slider>button");
+    let flag = 0;
+
+    btn.forEach((val, index) => {
+      val.addEventListener("click", () => {
+        flag++;
+        for (let i = 0; i < _slider.length; i++) {
+          if (val != i) {
+            _slider[i].classList.add("opacity-0");
+            btn[i].classList.add("bg-[#2d2f41]");
+            btn[i].classList.remove("bg-[#565a78]");
+          }
+        }
+        _slider[index].classList.remove("opacity-0");
+        btn[index].classList.add("bg-[#565a78]");
+        btn[index].classList.remove("bg-[#2d2f41]");
+      });
+    });
+
+    setInterval(() => {
+      if (flag > 2) {
+        flag = 0;
+      }
+      btn[flag].click();
+    }, 5000);
+  </script>
 </html>
