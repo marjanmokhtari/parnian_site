@@ -36,3 +36,18 @@ setInterval(() => {
   }
   btn[flag].click();
 }, 5000);
+
+
+const send_email = document.getElementById('send_email')
+const inp_email = document.getElementById('inp_email')
+
+
+send_email.addEventListener('click', () => {
+  myval = inp_email.value
+
+  if (
+    (myval.search(/[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/)) >= 0
+  ) {
+    alert('ok')
+  }
+})
